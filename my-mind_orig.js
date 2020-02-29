@@ -1,5 +1,4 @@
 /* My Mind web app: all source files combined. */
-
 if (!Function.prototype.bind) {
 	Function.prototype.bind = function(thisObj) {
 		var fn = this;
@@ -273,7 +272,6 @@ Promise.worker = function(url, message) {
 	worker.postMessage(message);
 	return promise;
 }
-
 /**
  * Prototype for all things categorizable: shapes, layouts, commands, formats, backends...
  */
@@ -4947,7 +4945,6 @@ MM.UI.Backend.GDrive._loadDone = function(data) {
 
 	MM.UI.Backend._loadDone.call(this, json);
 }
-
 MM.Mouse = {
 	TOUCH_DELAY: 500,
 	_port: null,
